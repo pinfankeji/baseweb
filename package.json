@@ -4,7 +4,8 @@
   "description": "简单的前端开发环境",
   "main": "index.js",
   "scripts": {
-    "test": "dev"
+    "dev": "gulp dev",
+    "out": "gulp out"
   },
   "repository": {
     "type": "git",
