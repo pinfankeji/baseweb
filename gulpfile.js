@@ -44,10 +44,10 @@ gulp.task('watch', ['js', 'css'], function () {
     gulp.watch(jsSrcFiles, ['js'])
 
     // 监视静态文件
-    gulp.watch(staticDir + '/*/*.*').on('change', sync.reload)
+    gulp.watch(staticDir + '/**/*.*').on('change', sync.reload)
 
     // 监视HTML文件
-    gulp.watch(htmlDir + '/*/*.html').on('change', sync.reload)
+    gulp.watch(htmlDir + '/**/*.html').on('change', sync.reload)
 })
 
 // 服务器
