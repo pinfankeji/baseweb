@@ -13,7 +13,7 @@ const moment = require('moment')
 const srcDir = './src'
 const distDir = './dist'
 const staticDir = './dist/static'
-const htmlDir = './dist/html'
+const htmlDir = './dist'
 
 const outDir = './out'
 
