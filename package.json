@@ -1,22 +1,21 @@
 {
-  "name": "bastatic",
+  "name": "BaseWeb",
   "version": "1.0.0",
-  "description": "简单的前端开发环境",
-  "main": "index.js",
+  "description": "简单的网页前端开发环境",
   "scripts": {
     "dev": "gulp dev",
     "out": "gulp out"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinfankeji/bastatic.git"
+    "url": "git+https://github.com/pinfankeji/baseweb.git"
   },
   "author": "雨中歌者",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinfankeji/bastatic/issues"
+    "url": "https://github.com/pinfankeji/baseweb/issues"
   },
-  "homepage": "https://github.com/pinfankeji/bastatic#readme",
+  "homepage": "https://github.com/pinfankeji/baseweb#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
